@@ -10,13 +10,13 @@ body {
 }
 
 .blurb p {
-    color: #ffff08;
+    color: #02002e;
     font-weight: 100;
     font-size: 2 rem;
     line-height: 2;
     font-family: 'Raleway', sans-serif;
+    text-shadow:1px 1px white;
 }
-
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -86,7 +86,7 @@ body {
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+
   .column {
     flex: 25%;
     max-width: 25%;
@@ -99,7 +99,7 @@ body {
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
@@ -107,7 +107,7 @@ body {
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
