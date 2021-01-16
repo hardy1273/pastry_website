@@ -1,5 +1,5 @@
 body {
-    background: #bcc4eb;
+    background:white;
     font-family: 'Amatic SC', cursive;
 }
 
@@ -29,17 +29,19 @@ body {
 }
 
 #mainNavbar .nav-link {
-    color: white;
+    color: black;
     font-size: 30px;
+    text-shadow:1px 1px white;
 }
 
 #mainNavbar .nav-link:hover {
-    color: #ffff08;
+    color: red;
 }
 
 #mainNavbar .navbar-brand {
-    color: #ffff08;
+    color: black;
     font-size: 1.5rem;
+    text-shadow:1px 1px white;
 }
 
 #headingGroup span {
@@ -52,9 +54,11 @@ body {
 }
 
 .navbar.scrolled {
-    background: rgb(124, 136, 194);
+    background: rgb(183, 65, 14);
     transition: background 500ms;
+    
 }
+
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
@@ -114,3 +118,9 @@ body {
       max-width: 100%;
     }
   }
+#headingGroup h1{
+    padding-bottom: 200px;
+}
+#navLinks .navbar-collapse .collapse .show{
+    background: rgb(183, 65, 14);
+}
